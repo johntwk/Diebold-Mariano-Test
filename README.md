@@ -3,7 +3,7 @@ This Python function <i>dm_test</i> implements the Diebold-Mariano Test (1995) w
 
 ## Description
 
-Suppose that the difference between the first list of prediction and the actual values is e1 and the second list of prediction and the actual value is e2.<br>
+Suppose that the difference between the first list of prediction and the actual values is e1 and the second list of prediction and the actual value is e2. The length of time-series is T. <br>
 Then d can be defined based on different criterion (<i>crit</i>).
 <br>
 <ol>
@@ -13,6 +13,8 @@ Then d can be defined based on different criterion (<i>crit</i>).
   <li>Poly: d = (e1)^power - (e2)^power</li>
 </ol>
 The null hypothesis is E[d] = 0.
+
+The test statistics follow the student-T distribution with degree of freedom (T - 1).
 
 ## File
 |    | File Name  | Description                                               |
