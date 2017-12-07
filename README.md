@@ -46,10 +46,9 @@ import random
 
 random.seed(123)
 actual_lst = range(0,100)
-#random.seed(12)
 pred1_lst = range(0,100)
-#random.seed(1)
 pred2_lst = range(0,100)
+
 actual_lst = random.sample(actual_lst,100)
 pred1_lst = random.sample(pred1_lst,100)
 pred2_lst = random.sample(pred2_lst,100)
