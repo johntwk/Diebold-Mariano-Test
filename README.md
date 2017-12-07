@@ -1,5 +1,5 @@
 # Diebold-Mariano Test
-This Python function <i>dm_test</i> implements the Diebold-Mariano Test (1995) with modification suggested by Harvey et. al (1997).
+This Python function <i>dm_test</i> implements the Diebold-Mariano Test (1995) with modification suggested by Harvey et. al (1997) to statitsitcally identify forecast accuracy equivalance for 2 sets of predictions.
 
 ## Description
 
